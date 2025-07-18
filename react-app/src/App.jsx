@@ -6,14 +6,23 @@ function App() {
   const age = "30";
   const country = "Sri Lanka";
 
+  const getFullName = (f,m,s) => {
+
+    return `${f} ${m} ${s}`;
+  }
+
+  const arr = ["Apple","Grapes", "Orange"];
+
   return (
    <>
    <div className="cont">
    
     <h1>Employee Details</h1>
-    <p> First name : John Alan Smith </p>
+    <p> Full name : {getFullName("Isuru", "Sampath", "Perera")}</p>
     <p>Age:{age}</p>
     <p>Country : Sri Lanka</p>
+
+    <p>{firstname} likes to eat {arr[0]} </p>
   
    </div>
    </>
