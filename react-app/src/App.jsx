@@ -1,17 +1,20 @@
 function App() {
 
-  const a = 50;
-
+  const firstname = "John";
+  const middlename = "Alan";
+  const lastname = "Smith";
+  const age = "30";
+  const country = "Sri Lanka";
+  
   return (
    <>
    <div className="cont">
-   <h1 className="heading">Isuru React</h1>
-
-   <p> {10*5}% for JSX</p>
-   <p>{a}</p>
-   <p> { a>45 ? "Pass" : "Fail"}</p>
-
-
+   
+    <h1>Employee Details</h1>
+    <p> First name : John Alan Smith </p>
+    <p>Age:30</p>
+    <p>Country : Sri Lanka</p>
+  
    </div>
    </>
   )
