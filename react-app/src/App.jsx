@@ -23,6 +23,14 @@ function App() {
     <p>Country : Sri Lanka</p>
 
     <p>{firstname} likes to eat {arr[0]} </p>
+
+    <p> Frontend Languages</p>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>React</li>
+    </ul>
   
    </div>
    </>
